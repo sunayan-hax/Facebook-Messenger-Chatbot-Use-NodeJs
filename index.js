@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 	res.send("Hi I am a Pizza Delivery Chat Bot Application.")
 })
 
-let token = "EAAB54jewV0MBAPoZCTd2CrXEREyj1UudekZCfPbm0ocRtZBOvLxHrpd8jULKrJZBxZCbKIZCt7KKiIgmJfLrLdBY0ncjUBtKRIBbBWG4ZC7eSi38em1ZBnQMRSi5TwHJgtYNLD3x65bbIZBwxzIIyhXi77JpI0M6L373dRAZBcdmhfLQZDZD"
+let token = "ZwYCaBEAAB54jewV0MBAPoZCTd2CrXEREyj1UudekZCfPbm0ocRtZBOvLxHrpd8jULKrJZBxZCbKIZCt7KKiIgmJfLrLdBY0ncjUBtKRIBbBWG4ZC7eSi38em1ZBnQMRSi5TwHJgtYNLD3x65bbIZBwxzIIyhXi77JpI0M6L373dRAZBcdmhfLQZDZD"
 
 // Facebook
 
@@ -70,7 +70,7 @@ function decideMessage(sender,text1){
 	{
 		sendText(sender,"and phone no.?")
 	}
-	else if(text.includes("8017310418"))
+	else if(text.includes("80**3****"))
 	{
 		sendText(sender,"can you tell me about any landmark that can help our boy to locate your house easily?")
 	}
